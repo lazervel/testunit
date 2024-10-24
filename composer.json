@@ -28,7 +28,7 @@
   ],
   "require": {
     "php": "^7.2 || ^8.0",
-    "filesys/path": "^6.0"
+    "filesys/path": ">=6.0"
   },
   "funding": [
     {
