@@ -1,17 +1,17 @@
 {
-  "name": "testunit/testunit",
+  "name": "testunit/testunitzx",
   "description": "TestUnit is PHP testing library that simplifies unit testing with an assertions.",
   "type": "library",
   "license": "MIT",
   "keywords": [
     "testunit",
+    "testing",
     "xunit",
-    "testing"
+    "debugging"
   ],
+  "prefer-stable": true,
+  "homepage": "https://github.com/shahzadamodassir",
   "autoload": {
-    "psr-4": {
-
-    },
     "classmap": [
       "src/"
     ],
@@ -19,12 +19,16 @@
 
     ]
   },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
   "bin": [
-    "src/bin/testunit"
+    "testunit"
   ],
   "require": {
     "php": "^7.2 || ^8.0",
-    "filesys/path": "*"
+    "filesys/path": "^6.0"
   },
   "funding": [
     {
@@ -45,7 +49,7 @@
     }
   ],
   "require-dev": {
-    
+    "testunit/testunit": "^1.0"
   },
   "minimum-stability": "stable"
 }
