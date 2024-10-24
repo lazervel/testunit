@@ -1,5 +1,5 @@
 {
-  "name": "testunit/testunitzx",
+  "name": "testunit/testunit",
   "description": "TestUnit is PHP testing library that simplifies unit testing with an assertions.",
   "type": "library",
   "license": "MIT",
@@ -28,7 +28,7 @@
   ],
   "require": {
     "php": "^7.2 || ^8.0",
-    "filesys/path": ">=6.0"
+    "filesys/path": "^6.0"
   },
   "funding": [
     {
@@ -49,7 +49,7 @@
     }
   ],
   "require-dev": {
-    "testunit/testunit": "^1.0"
+    
   },
   "minimum-stability": "stable"
 }
