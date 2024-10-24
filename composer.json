@@ -20,7 +20,7 @@
     ]
   },
   "bin": [
-    "src/bin/phpunit"
+    "src/bin/testunit"
   ],
   "require": {
     "php": "^7.2 || ^8.0"
